@@ -12,10 +12,10 @@ AI-trender i Sverige.
 Pipeline i två steg:
 
 1. **Hämta historiska annonser** från Platsbankens `historical`-API  
-   ([`fetch_historical_detailed.py`](./fetch_historical_detailed.py))
+   ([`fetch_historical_detailed.py`](./src/fetch_historical_detailed.py))
 
 2. **Filtrera fram AI-relaterade annonser** med hjälp av sökord / regex  
-   ([`filter_ai_ads.py`](./filter_ai_ads.py))
+   ([`filter_ai_ads.py`](./src/filter_ai_ads.py))
 
 Ut kommer en JSONL-fil med de jobbannonser där annonsen innehåller AI-relaterade
 kompetenser (AI, machine learning, LLM, generative AI m.m.) som jag sedan läst in
